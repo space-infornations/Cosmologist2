@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mercury Planet </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<link rel="stylesheet" href="navbar.css"> <!-- Link to external CSS -->
+<link rel="stylesheet" href="Styles2/mercury.css"> <!-- Link to external CSS -->
+<link rel="stylesheet" href="Styles2/nav.css"> <!-- Link to external CSS -->
+<link rel="stylesheet" href="Styles2/iframe.css">
+<script src="scriptfiles/iframe.js">  </script>
+<script src="scriptfiles/commenscript.js"></script>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top custom-space-navbar">
+        <div class="container custom-space-container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center custom-space-navbar-brand" href="#">
+                <img src="path-to-your-logo/logo.png" alt="Custom Logo" class="custom-logo">
+                <span class="d-none d-md-inline-block ms-2 text-white custom-space-brand-text">Cosmic Adventures</span>
+            </a>
+            <!-- Custom Star Toggler -->
+            <button class="navbar-toggler custom-space-navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-star text-white fs-4 custom-space-toggler-icon"></i>
+            </button>
+            <!-- Collapsible Content -->
+            <div class="collapse navbar-collapse custom-space-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto custom-space-nav">
+                    <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
+                            href="#">Home</a></li>
+                    <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
+                            href="#">About</a></li>
+                    <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
+                            href="#">Services</a></li>
+                    <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
+                            href="#">Blog</a></li>
+                    <li class="nav-item dropdown custom-space-dropdown">
+                        <a class="nav-link dropdown-toggle text-white custom-space-dropdown-toggle" href="#"
+                            id="planetsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Planets
+                        </a>
+                        <ul class="dropdown-menu custom-space-dropdown-menu" aria-labelledby="planetsDropdown">
+                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Mercury</a></li>
+                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Venus</a></li>
+                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Earth</a></li>
+                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Mars</a></li>
+                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Jupiter</a></li>
+                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Saturn</a></li>
+                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Uranus</a></li>
+                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Neptune</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
+                            href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mercury Section -->
+    <section id="mercury" class="container py-5 mercury-section">
+        <h2 class="text-center mb-4 mercury-title-main">Mercury <i class="fas fa-globe"></i></h2>
+        <div class="row justify-content-center mercury-row">
+            <div class="col-lg-8 mercury-col">
+                <p><i class="fas fa-info-circle"></i> Mercury is the smallest planet in our solar system and the closest
+                    to the Sun. It is known for its extreme temperatures and heavily cratered surface.</p>
+                <h3 class="mt-4 mercury-title">Mercury Stats <i class="fas fa-chart-bar"></i></h3>
+                <div class="table-responsive mercury-table-container">
+                    <table class="table custom-table text-center mt-3 mercury-table">
+                        <thead class="table-dark mercury-table-head">
+                            <tr>
+                                <th><i class="fas fa-list"></i> Feature</th>
+                                <th><i class="fas fa-hashtag"></i> Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><i class="fas fa-sun text-warning"></i> Distance from Sun</td>
+                                <td>57.91 million km</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-ruler-horizontal text-primary"></i> Diameter</td>
+                                <td>4,880 km</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-weight-hanging text-secondary"></i> Mass</td>
+                                <td>3.30 × 10<sup>23</sup> kg</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-thermometer-half text-danger"></i> Surface Temperature</td>
+                                <td>-173 to 427 °C</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-clock text-info"></i> Length of Day</td>
+                                <td>58.6 Earth days</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-calendar-alt text-success"></i> Length of Year</td>
+                                <td>88 Earth days</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-moon text-muted"></i> Number of Moons</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 class="mt-5 mercury-title">Interesting Facts About Mercury <i class="fas fa-lightbulb"></i></h3>
+                <ul class="list-group mercury-list">
+                    <li class="list-group-item"><i class="fas fa-meteor"></i> Mercury has the most eccentric orbit of
+                        all the planets, making its distance from the Sun vary significantly.</li>
+                    <li class="list-group-item"><i class="fas fa-globe"></i> Despite being closest to the Sun, it is not
+                        the hottest planet; Venus holds that title due to its thick atmosphere.</li>
+                    <li class="list-group-item"><i class="fas fa-star"></i> Mercury has no atmosphere to retain heat,
+                        leading to extreme temperature fluctuations between day and night.</li>
+                    <li class="list-group-item"><i class="fas fa-map"></i> The Caloris Basin, one of the largest impact
+                        craters in the solar system, is found on Mercury.</li>
+                </ul>
+
+                <h3 class="mt-5 mercury-exploration-title">Exploration of Mercury <i class="fas fa-rocket"></i></h3>
+                <p><i class="fas fa-satellite"></i> NASA's MESSENGER spacecraft was the first to orbit Mercury,
+                    providing detailed maps and data about its composition and geology.</p>
+                <p><i class="fas fa-robot"></i> The European Space Agency's BepiColombo mission, launched in 2018, is
+                    currently en route to study Mercury further.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mars Planet Iframe -->
+    <section id="custom-mercury-explorer" class="custom-mercury-container py-5">
+        <h2 class="text-center mb-4 custom-mercury-title">Explore Mercury <i class="fas fa-satellite-dish"></i></h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <!-- Custom Mercury information iframe -->
+                <div class="custom-mercury-iframe-wrapper">
+                    <iframe id="mercury-iframe" src="Mercury.mp4" class="custom-mercury-iframe"></iframe>
+                </div>
+                <p class="mt-3 text-center custom-mercury-description">Discover the smallest and closest planet to the
+                    Sun!
+                </p>
+                <button class="custom-mercury-button">
+                    <a href="Mercuryplanet.html" target="_blank" class="custom-mercury-link">
+                        <i class="fas fa-info-circle"></i> Learn More
+                    </a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 MyWebsite. All rights reserved. <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <!-- "Go to Top" Button -->
+    <button id="goToTop" class="btn btn-primary" style="position: fixed; bottom: 20px; right: 20px; display: none;">
+        <i class="fas fa-arrow-up"></i> Top
+    </button>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

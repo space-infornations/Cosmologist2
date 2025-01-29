@@ -1,0 +1,101 @@
+/* Custom container styling for the Earth section */
+.custom-earth-container {
+    background-color: #87CEEB;
+    /* Sky blue for a calm and fresh look */
+    border-radius: 12px;
+    /* Rounded corners */
+    padding: 50px;
+}
+
+/* Custom title styling for Earth section */
+.custom-earth-title {
+    font-family: 'Arial', sans-serif;
+    color: #000080;
+    /* Navy blue for the title text */
+    font-size: 2.3rem;
+    /* Larger font size */
+    font-weight: 700;
+    /* Bold text */
+}
+
+/* Custom description styling for Earth section */
+.custom-earth-description {
+    font-size: 1.4rem;
+    color: #000080;
+    /* Navy blue color for description text */
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+/* Custom wrapper for the Earth iframe */
+.custom-earth-iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 10px;
+    /* Rounded corners for the iframe container */
+    background-color: #ADD8E6;
+    /* Light blue background for the iframe container */
+}
+
+/* Custom styling for the Earth iframe */
+.custom-earth-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 4px solid #000080;
+    /* Navy blue border */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for depth */
+}
+
+/* Custom padding for the section */
+.custom-earth-container .container {
+    padding: 30px;
+}
+
+/* Icon color */
+.custom-earth-title i {
+    color: #000080;
+    /* Navy blue for the icon */
+}
+
+/* Custom Button */
+.custom-earth-button {
+    background-color: #87CEEB;
+    /* Button background color */
+    border: none;
+    color: white;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    text-align: center;
+    text-decoration: none;
+    /* Remove underline from link */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+.custom-earth-link {
+    color: white;
+    /* Link text color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.custom-earth-button:hover {
+    background-color: #ADD8E6;
+    /* Button hover color */
+}

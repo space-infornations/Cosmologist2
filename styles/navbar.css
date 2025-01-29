@@ -1,0 +1,107 @@
+
+/* Space Theme Navbar */
+.custom-space-navbar {
+    background: linear-gradient(135deg, #000428, #004e92);
+    /* Space gradient */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    /* Subtle shadow to give depth */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    animation: starryAnimation 5s infinite;
+    /* Optional: for a subtle movement effect */
+}
+
+/* Animation for stars background (if you prefer a moving effect) */
+@keyframes starryAnimation {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+/* Brand Text Styling */
+.custom-space-navbar-brand .custom-space-brand-text {
+    font-family: 'Orbitron', sans-serif;
+    /* Space font */
+    letter-spacing: 2px;
+    color: #fff;
+    /* Bright white color */
+    font-size: 24px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.6);
+}
+
+/* Toggler icon */
+.custom-space-navbar-toggler {
+    border: none;
+}
+
+.custom-space-toggler-icon {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Navbar items hover effect */
+.custom-space-nav .custom-space-nav-link {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.custom-space-nav .custom-space-nav-link:hover {
+    color: #ffcc00;
+    /* Bright yellow for a cosmic glow */
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.9), 0 0 30px rgba(255, 255, 255, 0.6);
+}
+
+/* Dropdown Menu Styling */
+.custom-space-dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Darker background for dropdown */
+    border: 2px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.custom-space-dropdown-item {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    /* Ensure the text color is white */
+    letter-spacing: 1px;
+}
+
+.custom-space-dropdown-item:hover {
+    background-color: #333;
+    /* Darken on hover */
+    color: #fff;
+    /* Keep the text color white on hover */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    /* Subtle glow effect */
+}
+
+/* Logo Styling */
+.custom-logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Dropdown toggle button */
+.custom-space-dropdown-toggle {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* Nav Items */
+.custom-space-nav {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}

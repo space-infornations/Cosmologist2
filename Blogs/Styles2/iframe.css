@@ -1,0 +1,101 @@
+/* Custom container styling for the Mercury section */
+.custom-mercury-container {
+    background-color: #313131;
+    /* Light gray for a clean and modern look */
+    border-radius: 12px;
+    /* Rounded corners */
+    padding: 50px;
+}
+
+/* Custom title styling for Mercury section */
+.custom-mercury-title {
+    font-family: 'Arial', sans-serif;
+    color: #FFCC00;
+    /* Bright yellow for the title text */
+    font-size: 2.3rem;
+    /* Larger font size */
+    font-weight: 700;
+    /* Bold text */
+}
+
+/* Custom description styling for Mercury section */
+.custom-mercury-description {
+    font-size: 1.4rem;
+    color: #FFCC00;
+    /* Darker gray for description text */
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+/* Custom wrapper for the Mercury iframe */
+.custom-mercury-iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 10px;
+    /* Rounded corners for the iframe container */
+    background-color: #f0f0f0;
+    /* Subtle background for the iframe container */
+}
+
+/* Custom styling for the Mercury iframe */
+.custom-mercury-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 4px solid #303030;
+    /* Dark border using #303030 */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for depth */
+}
+
+/* Custom padding for the section */
+.custom-mercury-container .container {
+    padding: 30px;
+}
+
+/* Icon color */
+.custom-mercury-title i {
+    color: #FFCC00;
+    /* Bright yellow for the icon */
+}
+
+/*   Custom Buttom   */
+.custom-mercury-button {
+    background-color: #9f60b3;
+    /* Button background color */
+    border: none;
+    color: white;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    text-align: center;
+    text-decoration: none;
+    /* Remove underline from link */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+.custom-mercury-link {
+    color: white;
+    /* Link text color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.custom-mercury-button:hover {
+    background-color: #6945a0;
+    /* Button hover color */
+}
