@@ -1,0 +1,32 @@
+.custom-image {
+    width: 100% !important;  /* Make the image take full width */
+    height: auto !important;  /* Maintain aspect ratio */
+}
+
+@media (max-width: 1200px) {
+    .custom-image {
+        width: 100% !important;  /* Adjust width for medium screens */
+        height: auto !important;  /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-image {
+        width: 100% !important;  /* Adjust width for small screens */
+        height: auto !important;  /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-image {
+        width: 100% !important;  /* Adjust width for extra small screens */
+        height: auto !important;  /* Maintain aspect ratio */
+    }
+}
+
+@media (min-width: 1201px) {
+    .custom-image {
+        width: 100% !important;  /* Adjust width for desktop screens */
+        height: auto !important;  /* Maintain aspect ratio */
+    }
+}
