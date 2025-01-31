@@ -30,3 +30,10 @@
         height: auto !important;  /* Maintain aspect ratio */
     }
 }
+
+::selection {
+  background-color: #d992f9; /* Your desired background color */
+  color: #ffffff; /* Your desired text color */
+
+
+}
