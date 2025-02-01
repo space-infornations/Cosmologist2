@@ -1,11 +1,11 @@
-      /* Your existing CSS code goes here */
+   /* Your existing CSS code goes here */
         .loader {
             width: 100%;
             height: 100vh;
             position: fixed;
             top: 0;
             left: 0;
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: #FFFFFF; /* Changed to opaque white */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -67,4 +67,9 @@
             80% { width: 100%; transform: translateX(0px); }
             90% { width: 80%; transform: translateX(15px); }
             100% { transform: translateX(0px); width: 16px; }
+        }
+
+        /* Disable scrollbar */
+        body {
+            overflow: hidden;
         }
