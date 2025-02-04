@@ -24,12 +24,12 @@
         <div class="container custom-space-container">
             <!-- Logo -->
             <a class="navbar-brand d-flex align-items-center custom-space-navbar-brand" href="#">
-                <img src="path-to-your-logo/logo.png" alt="Custom Logo" class="custom-logo">
+                <img src="images/logo.webp" alt="Custom Logo" class="custom-logo">
                 <span class="d-none d-md-inline-block ms-2 text-white custom-space-brand-text">Cosmic Adventures</span>
             </a>
             <!-- Custom Star Toggler -->
-            <button class="navbar-toggler custom-space-navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+            <button class="navbar-toggler custom-space-navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <i class="fas fa-star text-white fs-4 custom-space-toggler-icon"></i>
             </button>
@@ -41,7 +41,7 @@
                     <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
                             href="#">About</a></li>
                     <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
-                            href="#">Services</a></li>
+                            href="#"></a></li>
                     <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
                             href="#">Blog</a></li>
                     <li class="nav-item dropdown custom-space-dropdown">
@@ -50,10 +50,14 @@
                             Planets
                         </a>
                         <ul class="dropdown-menu custom-space-dropdown-menu" aria-labelledby="planetsDropdown">
-                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Mercury</a></li>
-                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Venus</a></li>
-                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Earth</a></li>
-                            <li><a class="dropdown-item custom-space-dropdown-item" href="#">Mars</a></li>
+                            <li><a class="dropdown-item custom-space-dropdown-item"
+                                    href="Blogs/Mercury.html">Mercury</a>
+                            </li>
+                            <li><a class="dropdown-item custom-space-dropdown-item" href="Blogs/venus.html">Venus</a>
+                            </li>
+                            <li><a class="dropdown-item custom-space-dropdown-item" href="Blogs/Earth.html">Earth</a>
+                            </li>
+                            <li><a class="dropdown-item custom-space-dropdown-item" href="Blogs/Mars.html">Mars</a></li>
                             <li><a class="dropdown-item custom-space-dropdown-item" href="#">Jupiter</a></li>
                             <li><a class="dropdown-item custom-space-dropdown-item" href="#">Saturn</a></li>
                             <li><a class="dropdown-item custom-space-dropdown-item" href="#">Uranus</a></li>
@@ -61,11 +65,51 @@
                         </ul>
                     </li>
                     <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
-                            href="#">Contact</a></li>
+                            href="Contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <!-- Standalone Offcanvas Menu -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto custom-space-nav">
+                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
+                        href="#">Home</a></li>
+                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
+                        href="#">About</a></li>
+                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
+                        href="#"></a>
+                </li>
+                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
+                        href="#">Blog</a></li>
+                <li class="nav-item dropdown custom-space-dropdown">
+                    <a class="nav-link dropdown-toggle text-dark custom-space-dropdown-toggle" href="#"
+                        id="planetsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Planets
+                    </a>
+                    <ul class="dropdown-menu custom-space-dropdown-menu" aria-labelledby="planetsDropdown">
+                        <li><a class="dropdown-item custom-space-dropdown-item" href="Blogs/Mercury.html">Mercury</a>
+                        </li>
+                        <li><a class="dropdown-item custom-space-dropdown-item" href="#">Venus</a></li>
+                        <li><a class="dropdown-item custom-space-dropdown-item" href="#">Earth</a></li>
+                        <li><a class="dropdown-item custom-space-dropdown-item" href="#">Mars</a></li>
+                        <li><a class="dropdown-item custom-space-dropdown-item" href="#">Jupiter</a></li>
+                        <li><a class="dropdown-item custom-space-dropdown-item" href="#">Saturn</a></li>
+                        <li><a class="dropdown-item custom-space-dropdown-item" href="#">Uranus</a></li>
+                        <li><a class="dropdown-item custom-space-dropdown-item" href="#">Neptune</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
+                        href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
 
     <!-- Mars Section -->
     <section id="mars" class="container py-5 mars-section">
