@@ -1,0 +1,9 @@
+.no-underline {
+    text-decoration: none; /* Remove underline from links */
+    color: #000000; /* Gold color for links */
+}
+
+.no-underline:hover {
+    text-decoration: underline; /* Optional: underline on hover for better UX */
+    color: #000000; /* Change color on hover if desired */
+}
