@@ -7,3 +7,38 @@
     text-decoration: underline; /* Optional: underline on hover for better UX */
     color: #000000; /* Change color on hover if desired */
 }
+
+.pagination {
+    margin: 20px 0;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+.page-link {
+    color: #007bff; /* Bootstrap primary color */
+    background-color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.page-link:hover {
+    background-color: #007bff; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+.page-item.active .page-link {
+    background-color: #007bff; /* Active page background */
+    color: #fff; /* Active page text color */
+    border: 1px solid #007bff; /* Active page border */
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d; /* Disabled link color */
+    background-color: #fff; /* Disabled background */
+    border: 1px solid #6c757d; /* Disabled border */
+    cursor: not-allowed; /* Change cursor for disabled */
+}
