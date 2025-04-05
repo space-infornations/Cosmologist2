@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    background-color: #000; /* Dark background for night sky */
+    color: #f0f0f0; /* Light text color */
+    font-family: 'Arial', sans-serif; /* Body font */
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif; /* Decorative font for headings */
+    color: #e0e0e0; /* Light gray for headings */
+}
+
+/* Navbar Styles */
+.custom-space-navbar {
+    background-color: #1a1a1a; /* Darker navbar */
+}
+
+.custom-space-nav-link {
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.custom-space-nav-link:hover {
+    color: #00bfff; /* Bright blue on hover */
+}
+
+/* Offcanvas Menu Styles */
+.offcanvas {
+    background-color: #1a1a1a; /* Dark background for offcanvas */
+}
+
+.custom-space-dropdown-menu {
+    background-color: #2a2a2a; /* Slightly lighter for dropdown */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove border */
+    border-radius: 25px; /* Rounded corners */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.5); /* Glowing effect on hover */
+}
+
+/* Image Styles */
+.img-fluid {
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1a1a1a; /* Dark footer */
+    color: #f0f0f0; /* Light text color */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
+
+/* "Go to Top" Button Styles */
+#goToTop {
+    background-color: #007bff; /* Button color */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Circular button */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#goToTop:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
