@@ -10,6 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <link rel="stylesheet" href="navbar.css"> <!-- Link to external CSS -->
 <link rel="stylesheet" href="Styles2/nav.css"> <!-- Link to external CSS -->
 <link rel="stylesheet" href="Styles2/Orion.css"> <!-- Link to external CSS -->
@@ -38,7 +39,7 @@
                     <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
                             href="#">About</a></li>
                     <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
-                            href="upcoming  astronomy events.html"> Events 2025 </a></li>
+                            href="upcoming astronomy events.html"> Events 2025 </a></li>
                     <li class="nav-item custom-space-nav-item"><a class="nav-link text-white custom-space-nav-link"
                             href="#">Blog</a></li>
                     <li class="nav-item dropdown custom-space-dropdown">
@@ -68,29 +69,23 @@
     </nav>
 
     <!-- Standalone Offcanvas Menu -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: white;">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
             <ul class="navbar-nav ms-auto custom-space-nav">
-                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
-                        href="index.html">Home</a></li>
-                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
-                        href="#">About</a></li>
-                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
-                        href="upcoming  astronomy events.html">  Events 2025 </a></li>
-                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
-                        href="#">Blog</a></li>
+                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link" href="index.html">Home</a></li>
+                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link" href="#">About</a></li>
+                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link" href="upcoming astronomy events.html">Events 2025</a></li>
+                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link" href="#">Blog</a></li>
                 <li class="nav-item dropdown custom-space-dropdown">
-                    <a class="nav-link dropdown-toggle text-dark custom-space-dropdown-toggle" href="#"
-                        id="planetsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle text-dark custom-space-dropdown-toggle" href="#" id="planetsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Planets
                     </a>
                     <ul class="dropdown-menu custom-space-dropdown-menu" aria-labelledby="planetsDropdown">
-                        <li><a class="dropdown-item custom-space-dropdown-item" href="Blogs/Mercury.html">Mercury</a>
-                        </li>
+                        <li><a class="dropdown-item custom-space-dropdown-item" href="Blogs/Mercury.html">Mercury</a></li>
                         <li><a class="dropdown-item custom-space-dropdown-item" href="#">Venus</a></li>
                         <li><a class="dropdown-item custom-space-dropdown-item" href="#">Earth</a></li>
                         <li><a class="dropdown-item custom-space-dropdown-item" href="#">Mars</a></li>
@@ -100,12 +95,11 @@
                         <li><a class="dropdown-item custom-space-dropdown-item" href="#">Neptune</a></li>
                     </ul>
                 </li>
-                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
-                        href="Contact.html">Contact</a></li>
+                <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link" href="Contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
-
+    
     <!-- Main Content -->
     <main class="container my-5">
         <h1 class="text-center mb-4">The Orion Constellation</h1>
@@ -146,8 +140,7 @@
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
-            <p class="mb-0">&copy; 2024 MyWebsite. All rights reserved. <i class="fas fa-heart"></i></p>
-        </div>
+            <p class="mb-0">&copy; 2024 MyWebsite. All rights reserved. <i class="fas fa-heart"></i></p </div>
     </footer>
 
     <!-- "Go to Top" Button -->
