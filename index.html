@@ -33,7 +33,7 @@
 <script defer src="scriptfiles/customcursor.js"></script>
 <script src="script/partical.js"> </script>
 
-<body>
+<body class="bg-dark text-light">
 
     <!-- Custom Space-Themed Navbar -->
     <!-- Main Navigation Bar -->
@@ -117,7 +117,6 @@
                     href="index.html">Home</a></li>
             <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
                     href="#">About</a></li>
-          
             <li class="nav-item custom-space-nav-item"><a class="nav-link text-dark custom-space-nav-link"
                     href="#">Blog</a></li>
             <!-- Mobile Planets Dropdown -->
@@ -159,155 +158,109 @@
 </div>
 
     <!-- Hero Section -->
-    <header class="custom-class text-white text-center py-5" style="background-color: transparent;">
-        <div class="container">
-            <img src="images/solarsytem.svg" alt="image" class="img-fluid mt-3 custom-image">
-        </div>
-    </header>
+    <header class="custom-class bg-dark text-white text-center py-5">
+    <div class="container">
+        <img src="images/solarsytem.svg" alt="image" class="img-fluid mt-3 custom-image">
+    </div>
+</header>
 
-    <section class="py-5 bg-light">
+
+
+
+    <section class="py-5 text-center">
         <div class="container">
-            <!-- Logo Section -->
-            <div class="text-center mb-4 ">
-                <img src="images/rocket.svg" alt="Logo" class="img-fluid" style="max-height: 100px;">
-            </div>
+            <img src="images/rocket.svg" alt="Logo" class="img-fluid mb-4" style="max-height: 100px;">
             <div class="box">
-                <h1 class="text-center mb-4">About Us</h1>
-                <p class="text-center">
-                    Welcome to our blog! We are passionate about sharing knowledge on various topics, from science to
-                    technology, and beyond. Our mission is to inspire, educate, and connect with our audience through
-                    engaging content.
-                </p>
+                <h1>About Us</h1>
+                <p>Welcome to our blog! We are passionate about sharing knowledge on various topics, from science to technology, and beyond.</p>
             </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6 mb-4 box">
                     <h3>Our Mission</h3>
-                    <p>
-                        To provide insightful and inspiring content that fosters learning and curiosity in our readers.
-                        We
-                        believe in the power of information and its ability to shape a better future.
-                    </p>
+                    <p>To provide insightful and inspiring content that fosters learning and curiosity in our readers.</p>
                 </div>
                 <div class="col-md-6 mb-4 box">
                     <h3>Our Vision</h3>
-                    <p>
-                        To be a leading source of knowledge and inspiration, bridging gaps in understanding and sparking
-                        meaningful conversations across the globe.
-                    </p>
+                    <p>To be a leading source of knowledge and inspiration, bridging gaps in understanding and sparking meaningful conversations.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Content Section -->
     <section class="py-5">
         <h1 class="text-center mb-4">Blog</h1>
         <div class="container">
-            <div class="row justify-content-center" id="card-container">
+            <div class="row justify-content-center">
+                
                 <!-- Mercury Card -->
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="card">
-                        <img src="images/svgsolar/Mercury.svg" class="card-img-top custom-img img-fluid"
-                            alt="Mercury image" loading="lazy" width="200" height="200">
+                    <div class="card bg-secondary text-light">
+                        <img src="images/svgsolar/Mercury .svg" class="card-img-top img-fluid" alt="Mercury">
                         <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-secondary"><i class="fas fa-rocket"></i> Mercury (बुध)</span>
-                                <span class="badge bg-dark"><i class="fas fa-sun"></i> Closest to Sun</span>
-                            </div>
-                            <h2 class="card-title"><i class="fas fa-globe"></i> Mercury (बुध)</h2>
-                            <p class="card-text"><i class="fas fa-info-circle"></i> The smallest planet in our solar
-                                system and closest to the Sun.</p>
-                            <p class="card-text"><small class="text-muted">Kartik | <time datetime="2025-01-30">30 Jan
-                                    2025, 12:15 PM IST</time></small></p>
-                            <div class="mt-2">
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=Blogs/Mercury.html" target="_blank" class="text-primary me-2"><i class="fab fa-facebook"></i></a>
-                                <a href="https://twitter.com/intent/tweet?url=Blogs/Mercury.html" target="_blank" class="text-info me-2"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=Blogs/Mercury.html" target="_blank" class="text-danger"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                            <a href="Blogs/Mercury.html" class="btn btn-primary btn-sm mt-2"><i
-                                    class="fas fa-arrow-right"></i> Learn More</a>
+                            <span class="badge bg-dark"><i class="fas fa-rocket"></i> Mercury (बुध)</span>
+                            <h2 class="card-title">Mercury (बुध)</h2>
+                            <p>The smallest planet in our solar system and closest to the Sun.</p>
+                            <a href="Blogs/Mercury.html" class="btn btn-primary btn-sm mt-2">Learn More</a>
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Venus Card -->
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="card">
-                        <img src="images/svgsolar/Venus.svg" class="card-img-top custom-img img-fluid" alt="Venus image"
-                            loading="lazy" width="200" height="200">
+                    <div class="card bg-secondary text-light">
+                        <img src="images/svgsolar/Venus.svg" class="card-img-top img-fluid" alt="Venus">
                         <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-warning text-dark"><i class="fas fa-globe"></i> Venus (शुक्र)</span>
-                                <span class="badge bg-danger"><i class="fas fa-cloud"></i> Thick Atmosphere</span>
-                            </div>
-                            <h2 class="card-title"><i class="fas fa-globe"></i> Venus (शुक्र)</h2>
-                            <p class="card-text"><i class="fas fa-info-circle"></i> The second planet from the Sun, known for its thick atmosphere.</p>
-                            <p class="card-text"><small class="text-muted">Kartik | <time datetime="2025-01-30">30 Jan 2025, 12:15 PM IST</time></small></p>
-                            <div class="mt-2">
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=Blogs/venus.html" target="_blank" class="text-primary me-2"><i class="fab fa-facebook"></i></a>
-                                <a href="https://twitter.com/intent/tweet?url=Blogs/venus.html" target="_blank" class="text-info me-2"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=Blogs/venus.html" target="_blank" class="text-danger"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                            <a href="Blogs/venus.html" class="btn btn-primary btn-sm mt-2"><i class="fas fa-arrow-right"></i> Learn More</a>
+                            <span class="badge bg-warning text-dark"><i class="fas fa-globe"></i> Venus (शुक्र)</span>
+                            <h2 class="card-title">Venus (शुक्र)</h2>
+                            <p>The second planet from the Sun, known for its thick atmosphere.</p>
+                            <a href="Blogs/Venus.html" class="btn btn-primary btn-sm mt-2">Learn More</a>
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Earth Card -->
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="card">
-                        <img src="images/svgsolar/Earth.svg" class="card-img-top img-fluid custom-img" alt="Earth image" loading="lazy" width="200" height="200">
+                    <div class="card bg-secondary text-light">
+                        <img src="images/svgsolar/Earth.svg" class="card-img-top img-fluid" alt="Earth">
                         <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-success"><i class="fas fa-leaf"></i> Earth (पृथ्वी)</span>
-                                <span class="badge bg-primary"><i class="fas fa-water"></i> Water Planet</span>
-                            </div>
-                            <h2 class="card-title"><i class="fas fa-globe"></i> Earth (पृथ्वी)</h2>
-                            <p class="card-text"><i class="fas fa-info-circle"></i> Our home planet, the only one known to support life.</p>
-                            <p class="card-text"><small class="text-muted">Kartik | <time datetime="2025-01-30">30 Jan 2025, 12:15 PM IST</time></small></p>
-                            <div class="mt-2">
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=Blogs/Earth.html" target="_blank" class="text-primary me-2"><i class="fab fa-facebook"></i></a>
-                                <a href="https://twitter.com/intent/tweet?url=Blogs/Earth.html" target="_blank" class="text-info me-2"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=Blogs/Earth.html" target="_blank" class="text-danger"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                            <a href="Blogs/Earth.html" class="btn btn-primary btn-sm mt-2"><i class="fas fa-arrow-right"></i> Learn More</a>
+                            <span class="badge bg-success"><i class="fas fa-leaf"></i> Earth (पृथ्वी)</span>
+                            <h2 class="card-title">Earth (पृथ्वी)</h2>
+                            <p>Our home planet, the only one known to support life.</p>
+                            <a href="Blogs/Earth.html" class="btn btn-primary btn-sm mt-2">Learn More</a>
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Mars Card -->
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="card">
-                        <img src="images/svgsolar/image.svg" class="card-img-top custom-img img-fluid" alt="Mars image" loading="lazy" width="200" height="200">
+                    <div class="card bg-secondary text-light">
+                        <img src="images/svgsolar/Mars.svg " class="card-img-top img-fluid" alt="Mars">
                         <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-danger"><i class="fas fa-mountain"></i> Mars (मंगल)</span>
-                                <span class="badge bg-info text-dark"><i class="fas fa-robot"></i> Rovers</span>
-                            </div>
-                            <h2 class="card-title"><i class="fas fa-globe"></i> Mars (मंगल)</h2>
-                            <p class="card-text"><i class="fas fa-info-circle"></i> The Red Planet, known for its dusty, rocky terrain.</p>
-                            <p class="card-text"><small class="text-muted">Kartik | <time datetime="2025-01-30">30 Jan 2025, 12:15 PM IST</time></small></p>
-                            <div class="mt-2">
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=Blogs/Mars.html" target="_blank" class="text-primary me-2"><i class="fab fa-facebook"></i></a>
-                                <a href="https://twitter.com/intent/tweet?url=Blogs/Mars.html" target="_blank" class="text-info me-2"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=Blogs/Mars.html" target="_blank" class="text-danger"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                            <a href="Blogs/Mars.html" class="btn btn-primary btn-sm mt-2"><i class="fas fa-arrow-right"></i> Learn More</a>
+                            <span class="badge bg-danger"><i class="fas fa-mountain"></i> Mars (मंगल)</span>
+                            <h2 class="card-title">Mars (मंगल)</h2>
+                            <p>The Red Planet, known for its dusty, rocky terrain.</p>
+                            <a href="Blogs/Mars.html" class="btn btn-primary btn-sm mt-2">Learn More</a>
                         </div>
                     </div>
                 </div>
+
             </div>
-            <!-- Load More Button -->
+
             <div class="text-center">
                 <a href="blog.html">
-                    <button class="btn btn-secondary mt-4" id="load-more-btn">
+                    <button class="btn btn-secondary mt-4">
                         <i class="fas fa-sync-alt"></i> Load More
                     </button>
                 </a>
             </div>
         </div>
     </section>
-    
+
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
