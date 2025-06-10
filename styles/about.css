@@ -5,3 +5,8 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
+
+ /* Ensures the base background is black */
+        body {
+            background-color: #000;
+        }
